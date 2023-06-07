@@ -1,0 +1,248 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+section {
+    padding: 2rem 10%;
+    min-height: 100vh;
+}
+
+/*INTRO SECTION*/
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.intro .content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.intro .content img {
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid red;
+}
+
+.intro .content h1 {
+    font-size: 5rem;
+    color: black;
+    text-transform: uppercase;
+}
+
+.intro .content h1 span {
+    font-size: 5rem;
+    color: red;
+    text-transform: uppercase;
+}
+
+/*ABOUT SECTION*/
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+}
+
+.about.content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.about .content h2 {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.about .content p {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+/*TIMELINE SECTION*/
+.timeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+}
+
+.timeline .container {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.timeline .container .timeline-wrapper h2 {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.timeline .container .timeline-wrapper .timeline-list .years {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.timeline .container .timeline-wrapper .timeline-list h3 {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+/*LINKS SECTION*/
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+}
+
+.links .content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.links .content .section-head {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.links .content .image img {
+    height: 20rem;
+    width: 20rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.links .content .image img:hover {
+    color: red;
+    opacity: 50%;
+    border: 2.5px solid red;
+}
+
+.links .container h3 {
+    color: white;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.links .content i {
+    color: white;
+    font-size: 1rem;
+} 
+
+.links .content i:hover {
+    color: red;
+}
+
+
+/*FOOTER*/
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+}
+
+footer a {
+    color: red;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 767px){
+    html {
+        font-size: 50%;
+    }
+
+    /*LINKS SECTION*/
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+}
+
+.links .content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.links .content .section-head {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.links .content .image img {
+    height: 15rem;
+    width: 15rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.links .content .image img:hover {
+    color: red;
+    opacity: 50%;
+    border: 2.5px solid red;
+}
+
+.links .container h3 {
+    color: white;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.links .content i {
+    color: white;
+    font-size: 3rem;
+} 
+
+.links .content i:hover {
+    color: red;
+}
+
+.links .content i {
+    font-size: 1rem;
+}
+}
+
+
